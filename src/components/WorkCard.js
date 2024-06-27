@@ -17,7 +17,7 @@ export const WorkCard = ({ title, desc, tags, reverse, sizeT, sizeF }) => {
       >
         <p className="text-xl font-semibold">{title}</p>
         <p className="text-base">{desc}</p>
-        <div className="w-fit">
+        <div className="">
           {tags.map((item, index) => {
             return (
               <div className="w-fit" key={index}>

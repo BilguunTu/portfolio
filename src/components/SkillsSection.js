@@ -86,7 +86,7 @@ const techIcons = [
 
 export const SkillsSection = () => {
   return (
-    <div className="flex p-24  text-gray-600">
+    <div className="flex p-24 text-gray-600 w-full">
       <div className="flex  flex-col gap-12 items-center justify-center">
         <GreyButton title="Skills" />
 
@@ -95,7 +95,7 @@ export const SkillsSection = () => {
         <div className="grid grid-cols-8 gap-2 gap-y-12">
           {techIcons.map((item, index) => {
             return (
-              <div key={index} className="grid grid-cols-2 gap-2 ">
+              <div key={index} className="grid  gap-2 ">
                 <CardIcon svg={item.svg} title={item.title} />
               </div>
             );

@@ -8,7 +8,7 @@ export const MainSection = () => {
     <div className="flex p-24">
       <div className="flex flex-1 flex-col gap-8">
         <div className="flex flex-col gap-1">
-          <h1 className="font-semibold text-6xl">{`Hi, I'm Tom 👋`}</h1>
+          <h1 className="font-semibold text-gray-900 text-6xl">{`Hi, I'm Tom 👋`}</h1>
           <p className="">
             I specialize in full stack development, particularly with React.js
             and Node.js. My main goal is to create exceptional digital
