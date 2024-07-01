@@ -4,7 +4,9 @@ export const Header = ({ toggle }) => {
   return (
     <div className="w-screen px-24 bg-white dark:bg-slate-800">
       <div className="flex justify-between py-4">
-        <h1 className="text-gray-900 font-extrabold text-3xl ">TOM</h1>
+        <h1 className="text-gray-900 dark:text-gray-50 font-extrabold text-3xl ">
+          TOM
+        </h1>
         <div className="flex gap-2">
           <div className="flex items-center text-gray-600 px-1 gap-6 border-r-1">
             <p className="text-base">About</p>
