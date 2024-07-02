@@ -114,7 +114,7 @@ const data = [
 
 export const WorkSection = () => {
   return (
-    <div className="flex p-24 bg-gray-50 text-gray-600">
+    <div className="flex p-24 bg-white text-gray-600">
       <div className="flex flex-1 flex-col gap-12 items-center">
         <GreyButton title="Work" />
         <p className="text-lg">Some of the noteworthy projects I have built:</p>
@@ -126,8 +126,8 @@ export const WorkSection = () => {
                 desc={item.desc}
                 tags={item.tags}
                 reverse={"reverse"}
-                sizeT={"r"}
                 sizeF={"l"}
+                sizeT={"r"}
               />
             ) : (
               <WorkCard
@@ -135,8 +135,8 @@ export const WorkSection = () => {
                 desc={item.desc}
                 tags={item.tags}
                 reverse={""}
-                sizeT={"l"}
                 sizeF={"r"}
+                sizeT={"l"}
               />
             )}
           </>
