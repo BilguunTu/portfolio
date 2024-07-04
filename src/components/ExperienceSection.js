@@ -48,7 +48,7 @@ const data = [
 
 export const ExperienceSection = () => {
   return (
-    <div className="flex p-24 bg-gray-50 text-gray-600">
+    <div className="flex p-24 bg-gray-50 text-gray-600 dark:bg-gray-900 dark:text-gray-50">
       <div className="flex flex-1 flex-col gap-8 items-center">
         <GreyButton title="Experience" />
         <p className="text-lg">

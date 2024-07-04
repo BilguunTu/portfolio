@@ -114,7 +114,7 @@ const data = [
 
 export const WorkSection = () => {
   return (
-    <div className="flex p-24 bg-white text-gray-600">
+    <div className="flex p-24 bg-white text-gray-600 dark:bg-gray-950 dark:text-gray-50">
       <div className="flex flex-1 flex-col gap-12 items-center">
         <GreyButton title="Work" />
         <p className="text-lg">Some of the noteworthy projects I have built:</p>
@@ -125,7 +125,7 @@ export const WorkSection = () => {
                 title={item.title}
                 desc={item.desc}
                 tags={item.tags}
-                reverse={"reverse"}
+                reverse="reverse"
                 sizeF={"l"}
                 sizeT={"r"}
               />
@@ -134,7 +134,7 @@ export const WorkSection = () => {
                 title={item.title}
                 desc={item.desc}
                 tags={item.tags}
-                reverse={""}
+                reverse=""
                 sizeF={"r"}
                 sizeT={"l"}
               />
